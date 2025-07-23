@@ -17,3 +17,10 @@ yarn playwright test --headed --workers 1
 ``` 
 > `--workers 1` means only one test is executed at a time.
 > it means only one browser window is opened aMotot a time 
+
+
+## BONUS - record tests
+example:
+```bash
+yarn playwright codegen https://mubi.pl/kalkulator-ubezpieczenia-mieszkania-i-domu/      
+```
